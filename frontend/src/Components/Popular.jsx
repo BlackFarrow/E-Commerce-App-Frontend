@@ -4,7 +4,7 @@ import Items from "./Items";
 
 function Popular() {
   return (
-    <div className=" flex flex-col items-center gap-[10px] h-[90vh] ">
+    <div className=" flex flex- items-center gap-[10px] h-[90vh] ">
       <h1 className=" text-[50px] font-[600]">Popular In women</h1>
       <hr className=" w-[200px] h-[6px] rounded-[15px]   bg-slate-700" />
      

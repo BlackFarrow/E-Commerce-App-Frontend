@@ -1,10 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 function Items(props) {
   return (
     <div className="w-[300px] hover:scale-105 hover:transition-all duration-600 cursor-pointer m-5">
       {/* Item image */}
-      <img src={props.image} className="rounded-t-xl" alt="" />
+      <Link to={`/product/${props.id}`}>      <img src={props.image} className="rounded-t-xl" alt="" /></Link>
+
       {/* Item name */}
       <p className=" m-[6px 0px]">{props.name}</p>
       <div className="flex item_prices gap-[20px]">
